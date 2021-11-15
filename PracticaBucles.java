@@ -40,10 +40,10 @@ public class PracticaBucles {
      *  Hazlo sin utilizar if
      */
     public boolean esImpar(int numero)   {
-        //TODO
-        
-        
-        return  false;
+       while (numero%2 != 0) {
+           return true;
+       }
+       return  false;
     }
 
     /**
